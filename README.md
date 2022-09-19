@@ -3,4 +3,4 @@
 
 # готовый проект на Vercel:
 
-https://vercel.com/alexvedernikoff/chessboard-knight-movings
+https://chessboard-knight-movings.vercel.app/
