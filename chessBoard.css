@@ -1,63 +1,59 @@
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* main {
-    width: auto;
-    margin: 0 auto;
-} */
-
 .row {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
 }
 
 .row div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .rowIndex {
-    width: 20px;
+  width: 20px;
 }
 
 .cell {
-    width: 40px;
-    height: 40px;
-    border: 1px black solid;
-    cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+  cursor: pointer;
 }
 
 .letter {
-    width: 42px;
-    height: 30px;
+  width: 42px;
+  height: 30px;
 }
 
 .letter:nth-child(1) {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .dark {
-    background-color: darkgreen;
+  background-color: darkgreen;
 }
 
 .light {
-    background-color: navajowhite;
+  background-color: navajowhite;
 }
 
 img {
-    height: 20px;
+  height: 20px;
 }
 
 .checked {
-    background-image: url('images/1.svg');
-    background-size: 40px;
+  background-image: url("images/knight.svg");
+  background-size: 40px;
 }
 
 .moving {
-    background-color:#911e42;
+  background-color: #911e42;
 }
